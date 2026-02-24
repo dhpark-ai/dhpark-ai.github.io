@@ -119,3 +119,17 @@ h1 {
 .news-list a:hover {
   text-decoration: underline;
 }
+
+.profile-links {
+  margin-top: 18px;
+  font-size: 0.95rem;
+}
+
+.profile-links a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
