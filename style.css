@@ -79,12 +79,14 @@ h1 {
 
 .text h3 a {
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid #aaa;
+  color: #1e3a8a;
+  border-bottom: 1px solid #cbd5e1;
+  transition: 0.2s;
 }
 
 .text h3 a:hover {
-  border-bottom: 1px solid black;
+  color: #2563eb;
+  border-bottom: 1px solid #2563eb;
 }
 
 .news-list {
