@@ -135,3 +135,18 @@ h1 {
 .profile-links a:hover {
   text-decoration: underline;
 }
+
+.paper-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 8px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.paper-button:hover {
+  background-color: #555;
+}
