@@ -11,7 +11,7 @@
 
 <nav>
   <a href="#home">Home</a>
-  <a href="#research">Research</a>
+  <a href="#research">Research Interest</a>
   <a href="#publications">Publications</a>
   <a href="#projects">Research Projects</a>
   <a href="#activities">Activities</a>
@@ -29,23 +29,28 @@
       <p>
         I am a robotics researcher working in aerospace manufacturing, focusing on the deployment 
         of humanoid and collaborative robotic systems in industrial environments.
-        My research interests include improving the repeatability and robustness of robotic manipulation
-        under real-world production constraints, as well as developing methods that enable robots to
-        autonomously perceive their situations and decide how to act accordingly.
+      </p>
+      
+      <p>
+        My research interests lie in improving the repeatability, robustness, and autonomy of robotic systems operating under real-world production constraints. 
+        In particular, I am interested in how robots can reliably perceive complex environments and perform manipulation tasks in high-precision manufacturing settings.
         
       </p>
 
       <p>
-        I received my M.S. in Artificial Intelligence in 2024. I am currently involved in 
-        multiple Korean government-funded R&D projects on humanoid and collaborative robots, 
-        while contributing to robotics system integration in aircraft manufacturing.
+        I received my M.S. in Artificial Intelligence in 2024 and my B.S. in Artificial Intelligence and Electrical Engineering. 
+        I currently work at Korea Aerospace Industries (KAI), the only aircraft system integrator in South Korea, where I contribute to robotics system integration and automation in aerospace manufacturing.
       </p>
 
+      <p>
+        I am interested in pursuing a PhD in robotics to study how robotic systems can achieve reliable autonomy and industrial-level robustness in real-world environments.
+      </p>
+      
       <div class="profile-links">
         [
         <a href="mailto:dhpark.ai@gmail.com">Email</a> /
-        <a href="https://scholar.google.com/" target="_blank">Google Scholar</a> /
-        <a href="https://scholar.google.com/citations?user=NIJbv_sAAAAJ=en&user=NIJbv_sAAAAJ" target="_blank">LinkedIn</a> /
+        <a href="https://scholar.google.com/citations?user=NIJbv_sAAAAJ=en&user=NIJbv_sAAAAJ" target="_blank">Google Scholar</a> /
+        <a href="https://www.linkedin.com/in/dhparkai" target="_blank">LinkedIn</a> /
         <a href="cv/my_cv1.pdf" target="_blank">CV</a>
         ]
       </div>
@@ -57,12 +62,11 @@
 
 
 <!-- RESEARCH -->
-<section id="research" class="section">
-  <h2>Research</h2>
+<section id="research interest" class="section">
+  <h2>Research Interests</h2>
 
   <p>
-    My research investigates how humanoid and collaborative robots can achieve 
-    industrial-level reliability in high-precision aerospace manufacturing through robust manipulation, perception, and motion planning.
+    My research focuses on enabling robots to operate reliably and autonomously in real-world manufacturing environments.
   </p>
 
   <p>
@@ -92,7 +96,7 @@
 
     <p>
       Donghyeok Park*, Sumin Yeon, Hyeon Seo, Seok-Jun Bu, and Suwon Lee.<br>
-      Computer Modeling in Engineering & Sciences, 2025 <br>
+      Computer Modeling in Engineering & Sciences(SCI-indexed), 2025 <br>
       <a href="https://www.techscience.com/CMES/v142n3/59783" target="_blank" class="paper-button">
       [ Paper ]
     </a>
@@ -116,7 +120,9 @@
         Cobot Path Optimization Considering Obstacles, Vision and Joint Velocity Constraints
       </h3>
       <p>
-        Donghyeok Park*, Changyeon Kim, Jeongun Lee, and Hunok Choi <br>The Korean Society for Aeronautical and Space Sciences – 2026 Spring Conference
+        Donghyeok Park*, Changyeon Kim, Jeongun Lee, and Hunok Choi <br>
+        Accepted for presentation at the Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, 2026. <br>
+        [Preprint available upon request]
       </p>
       <p>
         This poster presents a task path optimization method for collaborative robots considering obstacles, vision constraints, and heterogeneous joint velocities. 
@@ -136,7 +142,11 @@
         </a>      
       </h3>
       <p>
-        Donghyeok Park* and Seyoung Ahn <br>Republic of Korea Patent[10-2437223]
+        Donghyeok Park* and Seyoung Ahn <br>
+        Republic of Korea Patent[10-2437223]
+      </p>
+      <p>
+        Patent related to aircraft manufacturing process improvement.
       </p>
     </div>
   </div>
@@ -152,60 +162,69 @@
   <div class="item">
     <img src="images/humanoid1.jpg">
     <div class="text">
-      <h3>Autonomous Humanoid Logistics for Aerospace Assembly</h3>
+      <h3>Humanoid Logistics Automation in Aerospace Production Lines</h3>
       <p>
-        Korean Government-Funded Humanoid Robotics Research Project<br>
+        Korean Government-Funded Humanoid Robotics Project<br>
         JUL 2025 - DEC 2025
       </p>
       <p>
-        A pilot system was developed to explore humanoid-based logistics automation within an active aerospace production line. 
-        The system effectively synchronized high-precision navigation with deep learning-based perception to handle safety-critical aerospace components. 
+        This project explored the deployment of a humanoid robot platform (RB-Y1) for logistics and material handling tasks within an active aerospace manufacturing environment. 
+        The robot was equipped with multiple RGB cameras and used YOLOv8-based perception to verify the presence of parts before executing manipulation tasks.
       </p>
+      <p><b>My Contributions</b></p>
+      <ul>
+        <li>Designed navigation paths for humanoid logistics operations in production environments</li>
+        <li>Implemented rotation and motion behaviors for part transportation tasks</li>
+        <li>Integrated YOLOv8-based perception to verify part presence before manipulation</li>
+        <li>Developed task execution logic where perception results determined whether the robot proceeded with the next action</li>
+      </ul>
+      <p><b>Technologies:</b> Python, YOLOv8, RGB Vision Systems, Humanoid Robot (RB-Y1)</p>
     </div>
   </div>
 
   <div class="item">
     <img src="images/cobot1.jpg">
     <div class="text">
-      <h3>Research on Automation Drilling Process Using Collaborative Robot System</h3>
+      <h3>Collaborative Robot Drilling Automation for Aircraft Wing Assembly</h3>
       <p>
-        Korean Government-Funded Cobot Research Project<br>
+        Korean Government-Funded Aerospace Manufacturing Automation Project<br>
         JUL 2025 - FEB 2026
       </p>
       <p>
-        This study investigates the development and implementation of a collaborative robotic system for automating the drilling process in civil aircraft assembly.
-        The proposed framework enhances positional accuracy, process repeatability, and production efficiency while satisfying stringent aerospace manufacturing standards.
+        This project investigated the feasibility of automating aircraft wing drilling operations using a collaborative robot integrated with a vision-based hole localization system. 
+        The robot identified drilling positions using machine vision and aligned its end-effector orientation before triggering drilling operations via PLC-based control signals.
       </p>
+      <p><b>My Contributions</b></p>
+      <ul>
+        <li>Implemented vision-based hole detection workflow using MechVision</li>
+        <li>Computed orientation corrections (Rx, Ry, Rz) for accurate drilling alignment</li>
+        <li>Integrated robotic motion execution with PLC-based drilling control signals</li>
+        <li>Developed Python-based logic connecting vision outputs to robot motion commands</li>
+      </ul>
+      <p><b>Technologies:</b> Python, MechVision, Industrial PLC Integration, Collaborative Robot</p>
     </div>
   </div>
 
   <div class="item">
-    <img src="images/proposal.jpg">
+    <img src="images/proposal1.jpg">
     <div class="text">
-      <h3>R&D Proposal Planning Participation</h3>
+      <h3>Heavy-Payload Humanoid Robot Concept Study for Industrial Tasks</h3>
       <p>
-        OCT 2025 - Present <br> Participated in research on a heavy-payload humanoid form factor, focusing on structural configuration and system-level design considerations.
+        OCT 2025 - Present
       </p>
+      <p>
+        This study investigates the feasibility of heavy-payload humanoid robots for industrial manufacturing tasks. 
+        The research analyzes payload requirements and task workflows in real aerospace production processes, including aircraft painting and heavy material handling scenarios.
+      </p>
+      <p><b>My Contributions</b></p>
+      <ul>
+        <li>Analyzed payload requirements for humanoid robots in industrial environments</li>
+        <li>Studied aircraft painting workflows to identify automation opportunities</li>
+        <li>Evaluated structural and operational requirements for heavy-payload humanoid configurations</li>
+      </ul>
     </div>
   </div>
 
-  
-  <div class="item">
-  <img src="images/reproduction.jpg">
-  <div class="text">
-    <h3>
-      <a href="#" target="_blank">
-        Reproduction Study (Ongoing)
-      </a>
-    </h3>
-    <p>
-      Reproducing and evaluating recent robotics research papers 
-      to analyze robustness and applicability in industrial environments.
-      Implementation from scratch with performance comparison and failure analysis.
-    </p>
-  </div>
-</div>
-  
 </section>
 
 
