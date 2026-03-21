@@ -195,28 +195,40 @@
   </div>
 </div>
 
-  <div class="item">
-    <img src="images/cobot1.jpg">
-    <div class="text">
-      <h3>Collaborative Robot Drilling Automation for Aircraft Wing Assembly</h3>
-      <p>
-        Korean Government-Funded Aerospace Manufacturing Automation Project<br>
-        JUL 2025 - FEB 2026
-      </p>
-      <p>
-        This project investigated the feasibility of automating aircraft wing drilling operations using a collaborative robot integrated with a vision-based hole localization system. 
-        The robot identified drilling positions using machine vision and aligned its end-effector orientation before triggering drilling operations via PLC-based control signals.
-      </p>
-      <p><b>My Contributions</b></p>
-      <ul>
-        <li>Implemented vision-based hole detection workflow using MechVision</li>
-        <li>Computed orientation corrections (Rx, Ry, Rz) for accurate drilling alignment</li>
-        <li>Integrated robotic motion execution with PLC-based drilling control signals</li>
-        <li>Developed Python-based logic connecting vision outputs to robot motion commands</li>
-      </ul>
-      <p><b>Technologies:</b> Python, MechVision, Industrial PLC Integration, Collaborative Robot</p>
-    </div>
+<div class="item">
+  <img src="images/cobot1.jpg">
+  <div class="text">
+    <h3>Automated B737 Horizontal Tail Drilling via Collaborative Robots</h3>
+    <p>
+      Korean Government-Funded Aerospace Manufacturing Automation Project<br>
+      JUL 2025 - FEB 2026
+    </p>
+
+    <p>
+      Developed an <b>automated drilling system</b> for B737 horizontal tail assemblies using 
+      <b>AGV-mounted collaborative robots</b>. The system integrated <b>machine vision (Mech-Vision)</b>, 
+      <b>PLC-controlled drilling</b>, and a <b>closed-loop pose correction pipeline</b> to replace manual drilling operations 
+      in an active aerospace production environment.
+    </p>
+
+    <p><b>My Contributions</b></p>
+    <ul>
+      <li>Engineered a multi-robot drilling pipeline deploying <b>three cobots on an AGV platform</b></li>
+      <li>Implemented vision-based hole detection and verification using Mech-Vision</li>
+      <li>Developed a <b>vision-guided pose correction system</b> that computed positional offsets before each drilling operation</li>
+      <li>Integrated robotic motion execution with PLC-controlled drilling signals for synchronized operation</li>
+      <li>Built a closed-loop validation pipeline to ensure sequential process accuracy across jig-mounted assemblies</li>
+    </ul>
+
+    <p>
+      <b>Results</b><br>
+      Reduced workforce from <b>19 to 10 operators</b> and achieved <b>zero out-of-tolerance defects per 1,000 holes</b> 
+      (0.161” drill, tolerance: 0.159–0.165”), compared to 2–3 defects under manual operation.
+    </p>
+
+    <p><b>Technologies:</b> Python, Mech-Vision, Industrial PLC Integration, Collaborative Robots, AGV Systems</p>
   </div>
+</div>
 
 
 </section>
