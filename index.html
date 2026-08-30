@@ -1,298 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donghyeok Park</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Donghyeok Park is a robotics engineer at Korea Aerospace Industries working on reliable Physical AI and autonomous robotic systems for aerospace manufacturing."
+  >
+  <title>Donghyeok Park | Robotics & Physical AI</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#research-interests">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#activities">Activities</a>
+    </nav>
+  </header>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#research-interests">Research Interests</a>
-  <a href="#publications">Publications</a>
-  <a href="#projects">Research Projects</a>
-  <a href="#activities">Activities</a>
-</nav>
+  <main class="container">
 
-<div class="container">
+    <section id="home" class="section hero">
+      <div class="profile">
+        <div class="profile-content">
+          <p class="eyebrow">Robotics Engineer · Korea Aerospace Industries</p>
 
-<!-- HOME -->
-<section id="home" class="section">
-  <div class="profile">
-    <div>
-      <h1>Donghyeok Park</h1>
-      <p class="subtitle">Robotics & Physical AI</p>
+          <h1>Donghyeok Park</h1>
 
-      <p>
-        I am a robotics engineer at Korea Aerospace Industries (KAI), where I develop and deploy robotic systems in real-world environments, including humanoid and collaborative robots for aerospace applications.
-      </p>
-      
-      <p>
-        My interests lie in enabling <b>autonomous robotic systems</b> by integrating perception, learning, and control. 
-        In particular, I am interested in how robots can understand complex environments, adapt to uncertainty, and perform reliable manipulation in real-world settings.
-      </p>
+          <p class="subtitle">
+            Reliable Physical AI for Aerospace Manufacturing
+          </p>
 
-      <p>
-        Through my work, I have developed systems involving vision-guided manipulation, SLAM-based navigation, and closed-loop control in industrial environments, which motivated me to pursue deeper research in autonomous robotics.
-      </p>
+          <p>
+            I am a robotics engineer at Korea Aerospace Industries (KAI), where I
+            develop and deploy robotic systems for real-world aerospace manufacturing
+            environments, including humanoid and collaborative robots.
+          </p>
 
-      <p>
-        I received my M.S. in Artificial Intelligence in 2024 and my B.S. in Artificial Intelligence and Electrical Engineering.
-      </p>
+          <p>
+            My research interests center on <strong>reliable autonomous robotics</strong>:
+            integrating perception, learning, planning, and control so that robots can
+            operate robustly under uncertainty in complex physical environments.
+          </p>
 
-      <p>
-        I am seeking to pursue a PhD in robotics to study how intelligent robotic systems can achieve robust, adaptive, and generalizable autonomy across diverse real-world environments.
-      </p>
-      
-      <div class="profile-links">
-        [
-        <a href="mailto:dhpark.ai@gmail.com">Email</a> /
-        <a href="https://scholar.google.com/citations?user=NIJbv_sAAAAJ&hl=en" target="_blank">Google Scholar</a> /
-        <a href="https://www.linkedin.com/in/dhparkai" target="_blank">LinkedIn</a> /
-        <a href="cv/my_cv1.pdf" target="_blank">CV</a>
-        ]
+          <p>
+            Through industrial projects, I have worked on vision-guided manipulation,
+            SLAM-based navigation, robot-cell integration, and closed-loop process
+            validation. I aim to advance robotic systems that are safe, adaptive, and
+            generalizable beyond controlled laboratory settings.
+          </p>
+
+          <div class="profile-links" aria-label="Profile links">
+            <a href="mailto:dhpark.ai@gmail.com">Email</a>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://scholar.google.com/citations?user=NIJbv_sAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Google Scholar</a>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://www.linkedin.com/in/dhparkai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LinkedIn</a>
+            <span aria-hidden="true">·</span>
+            <a
+              href="cv/my_cv1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >CV</a>
+          </div>
+        </div>
+
+        <img
+          src="images/me1.jpg"
+          alt="Portrait of Donghyeok Park"
+          class="profile-image"
+        >
       </div>
-    </div>
+    </section>
 
-    <img src="images/me1.jpg" alt="Profile">
-  </div>
-</section>
+    <section id="research-interests" class="section">
+      <h2>Research Interests</h2>
 
-
-<!--RESEARCH INTERESTS  -->
-<section id="research-interests" class="section">
-  <h2>Research Interests</h2>
-
-  <p>
-    My research focuses on developing <b>autonomous robotic systems</b> that can operate robustly in real-world environments by integrating perception, learning, and control.
-  </p>
-
-  <p>
-    I am particularly interested in:
-  </p>
-
-  <ul>
-    <li>Vision-based perception and 3D scene understanding for robotic manipulation</li>
-    <li>Learning-based approaches for robust and adaptive robot behavior</li>
-    <li>Motion planning and control under uncertainty</li>
-    <li>Vision-guided manipulation and object interaction</li>
-    <li>Bridging simulation and real-world deployment of robotic systems</li>
-  </ul>
-
-  <p>
-    My long-term goal is to build scalable robotic systems that can generalize across tasks and environments, 
-    enabling reliable deployment in complex real-world scenarios such as manufacturing, logistics, and human-centered environments.
-  </p>
-</section>
-
-
-<!-- PUBLICATIONS -->
-<section id="publications" class="section">
-  <h2>Publications</h2>
-
-<div class="item">
-  <img src="images/paper1.jpg">
-  <div class="text">
-    <h3>
-      Practical Adversarial Attacks Imperceptible to Humans in Visual Recognition
-    </h3>
-
-    <p>
-      Donghyeok Park*, Sumin Yeon, Hyeon Seo, Seok-Jun Bu, and Suwon Lee.<br>
-      Computer Modeling in Engineering & Sciences(SCI-indexed), 2025 <br>
-      <a href="https://www.techscience.com/CMES/v142n3/59783" target="_blank" class="paper-button">
-      [ Paper ]
-    </a>
-    </p>
-
-    <p>
-      This paper proposes a practical black-box adversarial attack that generates image perturbations imperceptible to humans while successfully fooling visual recognition models. 
-      Unlike prior work assuming white-box access or unlimited queries, the attack operates under realistic constraints with limited model access and query budgets. 
-      Experimental results show high attack success rates and strong human imperceptibility, highlighting real-world security risks in deep learning systems.
-    </p>
-
-
-
-  </div>
-</div>
-
-  <div class="item">
-    <img src="images/paper2.jpg">
-    <div class="text">
-      <h3>
-        Cobot Path Optimization Considering Obstacles, Vision and Joint Velocity Constraints
-      </h3>
       <p>
-        Donghyeok Park*, Changyeon Kim, Jeongun Lee, and Hunok Choi <br>
-        The Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, 2026. <br>
-        <a href="https://dhpark-ai.github.io/CONFERENCE-2026-Spring/" target="_blank" class="paper-button">
-        [ Paper ]          
-        </a>
+        I am interested in building autonomous robotic systems that can reliably
+        perceive, reason, and act in real-world environments.
       </p>
+
+      <ul class="research-list">
+        <li>Perception and 3D scene understanding for robotic manipulation</li>
+        <li>Reliable localization, navigation, and motion planning under uncertainty</li>
+        <li>Learning-based methods for robust and adaptive robot behavior</li>
+        <li>Vision-guided manipulation and closed-loop task execution</li>
+        <li>Sim-to-real transfer and deployment of embodied AI systems</li>
+        <li>Physical AI for manufacturing, logistics, and human-centered environments</li>
+      </ul>
+
       <p>
-        This paper presents a task path optimization method for collaborative robots considering obstacles, vision constraints, and heterogeneous joint velocities. 
-        A unified joint-space time cost function is formulated to minimize overall cycle time. 
-        Experimental comparisons demonstrate improved efficiency over conventional path planning strategies.
+        My long-term goal is to bridge research and deployment by developing scalable
+        robotic systems that can be trusted in safety- and quality-critical settings.
       </p>
-    </div>
-  </div>
+    </section>
 
-  
-  <div class="item">
-    <img src="images/patent1.jpg">
-    <div class="text">
-      <h3>
-        Method for filling buffer gas in aircraft damper and fixtures therefor     
-      </h3>
-      
-      <p>
-        Donghyeok Park* and Seyoung Ahn <br>
-        Republic of Korea Patent[10-2437223] <br>
-        <a href="https://doi.org/10.8080/1020200150076" target="_blank" class="paper-button">
-        [Paper(Korean)]
-        </a>
-      </p>
-      <p>
-        Patent related to aircraft manufacturing process improvement.
-      </p>
-    </div>
-  </div>
-  
-  
-</section>
+    <section id="publications" class="section">
+      <h2>Publications & Patent</h2>
 
+      <article class="item">
+        <img
+          src="images/paper2.jpg"
+          alt="Visualization of collaborative robot path optimization"
+        >
 
-<!-- RESEARCH PROJECTS -->
-<section id="projects" class="section">
-  <h2>Research Projects</h2>
+        <div class="text">
+          <p class="item-label">Conference Paper</p>
+          <h3>
+            Cobot Path Optimization Considering Obstacles, Vision and Joint Velocity Constraints
+          </h3>
 
-<div class="item">
-  <img src="images/humanoid1.jpg">
-  <div class="text">
-    <h3>Humanoid Logistics Automation in Aerospace Production Lines</h3>
-    <p>
-      Korean Government-Funded Humanoid Robotics Project<br>
-      AUG 2025 - MAR 2026
-    </p>
+          <p class="citation">
+            Donghyeok Park*, Changyeon Kim, Jeongun Lee, and Hunok Choi.<br>
+            Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, 2026.
+          </p>
 
-    <p>
-      Developed a <b>Physical AI framework</b> for humanoid-driven logistics (RB-Y1) in an active aerospace manufacturing environment. 
-      The system integrated <b>2D LiDAR-based SLAM</b> for precise navigation and <b>YOLOv8-based perception</b> for real-time part verification, 
-      enabling safe handling of aerospace components.
-    </p>
+          <p>
+            This work presents a task-path optimization method for collaborative robots
+            considering obstacles, vision constraints, and heterogeneous joint velocities.
+            A unified joint-space time-cost function improves cycle-time efficiency while
+            maintaining feasible robot motion.
+          </p>
 
-    <p><b>Contributions</b></p>
-    <ul>
-      <li>Designed and implemented navigation strategies using LiDAR-based SLAM for inter-facility logistics</li>
-      <li>Integrated YOLOv8-based perception to verify part presence before manipulation tasks</li>
-      <li>Developed perception-driven task execution logic for autonomous decision-making</li>
-      <li>Implemented teleoperation-based imitation learning for box picking and loading sequences</li>
-    </ul>
+          <a
+            class="paper-button"
+            href="https://dhpark-ai.github.io/CONFERENCE-2026-Spring/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View Paper</a>
+        </div>
+      </article>
 
-    <p>
-      <b>Results</b><br>
-      Achieved <b>>96% success rate</b> in autonomous logistics tasks over <b>31 cumulative hours</b> of real-world operation.
-    </p>
+      <article class="item">
+        <img
+          src="images/paper1.jpg"
+          alt="Visualization from adversarial attack research"
+        >
 
-    <p><b>Technologies:</b> Python, YOLOv8, 2D LiDAR SLAM, RGB Vision Systems, Humanoid Robot (RB-Y1)</p>
-  </div>
-</div>
+        <div class="text">
+          <p class="item-label">Journal Paper</p>
+          <h3>
+            Practical Adversarial Attacks Imperceptible to Humans in Visual Recognition
+          </h3>
 
-<div class="item">
-  <img src="images/cobot1.jpg">
-  <div class="text">
-    <h3>Automated B737 Horizontal Tail Drilling via Collaborative Robots</h3>
-    <p>
-      Korean Government-Funded Aerospace Manufacturing Automation Project<br>
-      JUL 2025 - FEB 2026
-    </p>
+          <p class="citation">
+            Donghyeok Park*, Sumin Yeon, Hyeon Seo, Seok-Jun Bu, and Suwon Lee.<br>
+            <em>Computer Modeling in Engineering & Sciences</em>, 142(3), 2025.
+          </p>
 
-    <p>
-      Developed an <b>automated drilling system</b> for B737 horizontal tail assemblies using 
-      <b>AGV-mounted collaborative robots</b>. The system integrated <b>machine vision (Mech-Vision)</b>, 
-      <b>PLC-controlled drilling</b>, and a <b>closed-loop pose correction pipeline</b> to replace manual drilling operations 
-      in an active aerospace production environment.
-    </p>
+          <p>
+            This paper proposes a practical label-only black-box adversarial attack that
+            generates visually imperceptible perturbations under realistic query-budget
+            constraints, highlighting security risks in visual recognition systems.
+          </p>
 
-    <p><b>Contributions</b></p>
-    <ul>
-      <li>Engineered a multi-robot drilling pipeline deploying <b>three cobots on an AGV platform</b></li>
-      <li>Implemented vision-based hole detection and verification using Mech-Vision</li>
-      <li>Developed a <b>vision-guided pose correction system</b> that computed positional offsets before each drilling operation</li>
-      <li>Integrated robotic motion execution with PLC-controlled drilling signals for synchronized operation</li>
-      <li>Built a closed-loop validation pipeline to ensure sequential process accuracy across jig-mounted assemblies</li>
-    </ul>
+          <a
+            class="paper-button"
+            href="https://www.techscience.com/CMES/v142n3/59783"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View Paper</a>
+        </div>
+      </article>
 
-    <p>
-      <b>Results</b><br>
-      Reduced workforce from <b>19 to 10 operators</b> and achieved <b>zero out-of-tolerance defects per 1,000 holes</b> 
-      (0.161” drill, tolerance: 0.159–0.165”), compared to 2–3 defects under manual operation.
-    </p>
+      <article class="item">
+        <img
+          src="images/paper2.jpg"
+          alt="Cooperative bimanual manipulation research illustration"
+        >
 
-    <p><b>Technologies:</b> Python, Mech-Vision, Industrial PLC Integration, Collaborative Robots, AGV Systems</p>
-  </div>
-</div>
+        <div class="text">
+          <p class="item-label">Conference Paper</p>
+          <h3>
+            Res-IL: Residual QP-based Imitation Learning for Cooperative Bimanual Manipulation
+          </h3>
 
+          <p class="citation">
+            Euichan Heo, Chansik Hwang, Jaehoon An, Donghyeok Park,
+            Woosung Jung, Inho Lee*, et al.<br>
+            IEEE International Conference on Advanced Intelligent Mechatronics (AIM), 2026.
+          </p>
 
+          <p>
+            This work investigates cooperative bimanual manipulation by combining
+            imitation learning with a residual quadratic-programming-based control
+            formulation for more stable and adaptable robot behavior.
+          </p>
 
-<div class="item">
-  <img src="images/AI_factory.jpg">
-  <div class="text">
-    <h3>AI-Driven Manufacturing System Design for Autonomous Robotics</h3>
-    <p>
-      Internal Research & Development Initiative<br>
-      JUL 2025 - PRESENT (Planned through 2030)
-    </p>
+          <span class="status-label">Proceedings link to be added</span>
+        </div>
+      </article>
 
-    <p>
-      Investigating how <b>AI and robotics systems</b> can be integrated into real-world aerospace manufacturing environments 
-      to enable <b>autonomous understanding and execution of engineering tasks</b>. 
-      The work focuses on bridging the gap between <b>unstructured engineering data (e.g., drawings, process documents)</b> 
-      and <b>robot-executable representations</b>.
-    </p>
+      <article class="item">
+        <img
+          src="images/patent1.jpg"
+          alt="Aircraft damper buffer-gas filling fixture"
+        >
 
-    <p><b>Research Focus</b></p>
-    <ul>
-      <li>Formulating manufacturing workflows as <b>structured, machine-interpretable tasks</b> for robotic execution</li>
-      <li>Investigating <b>AI-based drawing interpretation</b> and process planning automation</li>
-      <li>Analyzing real-world constraints in deploying <b>humanoid robots</b> in dynamic production environments</li>
-      <li>Exploring architectures for <b>real-time perception–decision–action loops</b> in factory settings</li>
-    </ul>
+        <div class="text">
+          <p class="item-label">Patent</p>
+          <h3>Method for Filling Buffer Gas in Aircraft Damper and Fixtures Therefor</h3>
 
-    <p><b>Approach</b></p>
-    <ul>
-      <li>Evaluated technical feasibility through interactions with AI/robotics vendors (RFI-based benchmarking)</li>
-      <li>Identified system-level bottlenecks in current production workflows</li>
-      <li>Designed a long-term system architecture for scalable AI-driven manufacturing</li>
-    </ul>
+          <p class="citation">
+            Donghyeok Park* and Seyoung Ahn.<br>
+            Republic of Korea Patent No. 10-2437223, 2022.
+          </p>
 
-    <p>
-      <b>Outcome</b><br>
-      Defined key research directions and system requirements for deploying autonomous robotic systems 
-      in large-scale manufacturing environments.
-    </p>
+          <p>
+            Patent on an aircraft manufacturing process and fixture for improving the
+            buffer-gas filling operation of aircraft dampers.
+          </p>
 
-    <p><b>Keywords:</b> Robotics Systems, Physical AI, Task Planning, Perception-to-Action, Manufacturing AI</p>
-  </div>
-</div>
+          <a
+            class="paper-button"
+            href="https://doi.org/10.8080/1020200150076"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View Patent</a>
+        </div>
+      </article>
+    </section>
 
-</section>
+    <section id="projects" class="section">
+      <h2>Selected Industry Projects</h2>
 
+      <article class="item">
+        <img
+          src="images/humanoid1.jpg"
+          alt="Humanoid robot used for aerospace logistics automation"
+        >
 
+        <div class="text">
+          <p class="item-label">Government-Funded Research Project · 2025–2026</p>
+          <h3>Humanoid Logistics Automation for Aerospace Manufacturing</h3>
 
-<!-- ACTIVITIES -->
-<section id="activities" class="section">
-  <h2>Activities</h2>
+          <p>
+            Developed a Physical AI framework for humanoid-assisted logistics in an
+            aerospace manufacturing environment. The system combined 2D LiDAR-based
+            SLAM, YOLOv8-based part verification, and perception-driven task execution.
+          </p>
 
-  <ul>
-    <li>DEC 2025 - Present : President, Robotics Club(KAIROBO) @ KAI </li>
-    <li>SEP 2018 - Present : Sharing Volunteer Group @ KAI </li>
-  </ul>
-</section>
+          <h4>Key Contributions</h4>
+          <ul>
+            <li>Designed SLAM-based navigation strategies for inter-facility logistics</li>
+            <li>Integrated vision-based verification before manipulation tasks</li>
+            <li>Developed perception-driven autonomous task-execution logic</li>
+            <li>Implemented teleoperation-based data collection for picking and loading</li>
+          </ul>
 
-</div>
+          <p class="technology">
+            <strong>Technologies:</strong> Python, YOLOv8, 2D LiDAR SLAM, RGB Vision, RB-Y1
+          </p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img
+          src="images/cobot1.jpg"
+          alt="Collaborative robots on an automated aerospace drilling platform"
+        >
+
+        <div class="text">
+          <p class="item-label">Government-Funded Research Project · 2025–2026</p>
+          <h3>Collaborative-Robot Drilling Automation for Aerospace Assembly</h3>
+
+          <p>
+            Developed an automated drilling system using AGV-mounted collaborative
+            robots, machine vision, PLC-controlled drilling, and closed-loop pose
+            correction for aerospace assembly operations.
+          </p>
+
+          <h4>Key Contributions</h4>
+          <ul>
+            <li>Engineered a multi-robot drilling workflow for complex assemblies</li>
+            <li>Implemented vision-based hole detection and verification</li>
+            <li>Developed pose correction before each drilling operation</li>
+            <li>Integrated robot motion with PLC signals for synchronized execution</li>
+            <li>Built a closed-loop validation pipeline for process consistency</li>
+          </ul>
+
+          <p class="technology">
+            <strong>Technologies:</strong> Python, Machine Vision, PLC Integration,
+            Collaborative Robots, AGV Systems
+          </p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img
+          src="images/AI_factory.jpg"
+          alt="Concept image representing AI-driven manufacturing systems"
+        >
+
+        <div class="text">
+          <p class="item-label">Internal Research Initiative</p>
+          <h3>AI-Driven Manufacturing Systems for Autonomous Robotics</h3>
+
+          <p>
+            Investigating system architectures that connect unstructured engineering
+            data—such as drawings and process documents—to machine-interpretable,
+            robot-executable task representations.
+          </p>
+
+          <h4>Research Focus</h4>
+          <ul>
+            <li>AI-assisted engineering-document interpretation and process planning</li>
+            <li>Structured task representations for robotic execution</li>
+            <li>Perception–decision–action loops for dynamic factory environments</li>
+            <li>System-level constraints in deploying embodied AI at scale</li>
+          </ul>
+
+          <p class="technology">
+            <strong>Keywords:</strong> Physical AI, Manufacturing AI, Task Planning,
+            Robotics Systems, Perception-to-Action
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="activities" class="section">
+      <h2>Activities</h2>
+
+      <ul class="activity-list">
+        <li><strong>Dec 2025 – Present:</strong> President, KAIROBO Robotics Club at KAI</li>
+        <li><strong>Sep 2018 – Present:</strong> Member, Sharing Volunteer Group at KAI</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Donghyeok Park</p>
+  </footer>
 </body>
 </html>
